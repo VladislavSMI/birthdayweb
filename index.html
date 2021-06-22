@@ -193,8 +193,14 @@
           method="POST"
           data-netlify="true"
         >
-          <input name="name" type="text" placeholder="Your Name" required />
-          <select id="answer" name="answer" class="form-input" required>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+          <select name="answer" id="answer" required>
             <option value="" selected disabled>Attending or not?</option>
             <option value="Yes I am attending">Yes I am attending</option>
             <option
@@ -204,7 +210,7 @@
             </option>
             <option value="No I am not attending">No I am not attending</option>
           </select>
-          <textarea name="text" placeholder="Your Message"></textarea>
+          <textarea name="text" id="text" placeholder="Your Message"></textarea>
           <input type="submit" value="Send Message" />
         </form>
       </section>
