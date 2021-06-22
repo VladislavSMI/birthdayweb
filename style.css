@@ -674,6 +674,10 @@ input {
   .intro-icons {
     display: none;
   }
+
+  .intro {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1000px) and (orientation: landscape) {
