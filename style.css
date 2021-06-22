@@ -27,6 +27,11 @@ html {
   --dark-color: #000;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .section-heading {
   font-size: 9rem;
   font-weight: 900;
@@ -230,6 +235,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
+  -webkit-perspective: 100000;
 }
 
 .card {
@@ -244,6 +250,7 @@ html {
   position: relative;
   transform: rotateY(20deg) skewX(-2deg);
   transition: transform 0.5s, box-shadow 0.5s;
+  
 }
 
 .card:hover {
@@ -448,15 +455,17 @@ html {
 }
 
 .contact-form input[type="submit"] {
-  background-color: var(--secondary-color-darker);
-  color: var(--light-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color-darker);
   text-transform: uppercase;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .contact-form input[type="submit"]:hover {
   background-color: var(--primary-color-darker);
+  color: var(--secondary-color);
 }
 /* End of Section 4 */
 
