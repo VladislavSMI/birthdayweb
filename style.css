@@ -312,7 +312,7 @@ input {
 /* Section 3 */
 
 .section-3 {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-darker);
   height: auto;
 }
 
