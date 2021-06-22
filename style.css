@@ -671,7 +671,7 @@ input {
 }
 
 @media (max-width: 320px) {
-  .intor-icons {
+  .intro-icons {
     display: none;
   }
 }
