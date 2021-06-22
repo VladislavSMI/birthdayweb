@@ -184,6 +184,10 @@ input {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 0.3s 0.3s;
 }
+
+.confirm {
+  text-decoration: underline;
+}
 /* End of Into */
 
 /* Countdown */
