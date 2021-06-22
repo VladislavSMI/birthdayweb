@@ -337,11 +337,11 @@ input {
   height: 0;
   background-color: #fff;
   z-index: 10;
-  transition: height 1s 1s;
 }
 
 .gallery-link:hover::before {
   height: 80%;
+  transition: height 1s 1s;
 }
 
 .gallery-link::after {
@@ -352,11 +352,11 @@ input {
   width: 0;
   height: 0.2rem;
   background-color: #fff;
-  transition: width 1s 1s;
 }
 
 .gallery-link:hover::after {
   width: 90%;
+  transition: width 1s 1s;
 }
 
 .gallery-img {
@@ -529,10 +529,10 @@ input {
     font-size: 75%;
   }
   .gallery-name {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .gallery-description {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 1400px) {
@@ -637,6 +637,13 @@ input {
 
   .navbar-link span {
     font-size: 1.7rem;
+  }
+
+  .gallery-name {
+    font-size: 2.8rem;
+  }
+  .gallery-description {
+    font-size: 2.2rem;
   }
 }
 
