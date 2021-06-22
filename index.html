@@ -187,7 +187,12 @@
       <!-- Section 4 -->
       <section class="section section-4" id="rsvp">
         <h2 class="section-heading">RSVP</h2>
-        <form class="contact-form">
+        <form
+          class="contact-form"
+          method="POST"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
           <input type="text" placeholder="Your Name" required />
           <select id="answer" name="answer" class="form-input" required>
             <option value="" selected disabled>Attending or not?</option>
@@ -200,6 +205,7 @@
             <option value="No I am not attending">No I am not attending</option>
           </select>
           <textarea placeholder="Your Message"></textarea>
+          <div data-netlify-recaptcha="true"></div>
           <input type="submit" value="Send Message" />
         </form>
       </section>

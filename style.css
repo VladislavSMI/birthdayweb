@@ -216,7 +216,7 @@ input {
 
 /* Section 1 */
 .section-1 {
-  background-color: var(--primary-color-darker);
+  background-color: var(--primary-color);
   border-top: 3px solid var(--secondary-color);
   padding: 5rem 0;
 }
@@ -312,7 +312,7 @@ input {
 /* Section 3 */
 
 .section-3 {
-  background-color: var(--primary-color-darker);
+  background-color: var(--primary-color);
   height: auto;
 }
 
