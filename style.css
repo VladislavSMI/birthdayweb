@@ -250,7 +250,6 @@ input {
   position: relative;
   transform: rotateY(20deg) skewX(-2deg);
   transition: transform 0.5s, box-shadow 0.5s;
-  
 }
 
 .card:hover {
@@ -668,6 +667,12 @@ input {
 
   .contact-form {
     width: 45rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .intor-icons {
+    display: none;
   }
 }
 
