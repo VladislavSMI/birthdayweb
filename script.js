@@ -27,7 +27,7 @@ const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
 const countdown = document.getElementById("countdown");
-const countdownTwo = document.getElementById("countdown");
+const countdownTwo = document.getElementById("countdown")
 
 const currentYear = new Date().getFullYear()+1;
 
@@ -36,7 +36,7 @@ const celineBday = new Date(`July 31 ${currentYear} 00:00:00`);
 // Update countdown time
 function updateCountdown() {
   const currentTime = new Date();
-  const diff = celineB day - currentTime;
+  const diff = celineBday - currentTime;
 
   const d = Math.floor(diff / 1000 / 60 / 60 / 24);
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
