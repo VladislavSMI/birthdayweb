@@ -29,7 +29,7 @@ const seconds = document.getElementById("seconds");
 const countdown = document.getElementById("countdown");
 const countdownTwo = document.getElementById("countdown")
 
-const currentYear = new Date().getFullYear()+1;
+const currentYear = new Date().getFullYear();
 
 const celineBday = new Date(`July 31 ${currentYear} 00:00:00`);
 
